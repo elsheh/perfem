@@ -1,0 +1,367 @@
+/* انواع الخطوط المستخدمة  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Fraunces", serif; */
+
+/* ضبط محاذاة المتصفح */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* لون الخلفية  */
+
+body{
+    background-color: #f2ebe3;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* تنسيق الحاوية الاساسية وتنسيق البيانات الداخلية */
+
+.container{
+    display: flex;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0px gray;
+}
+
+.photo1{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.part2{
+    width: 450px;
+    height: 450px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffff;
+}
+
+.father{
+    margin-left: 30px;
+}
+
+.text1{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 25px;
+}
+
+.text2{
+    font-family: "Fraunces", serif;
+    color: #333;
+    width: 260px;
+    font-size: 43px;
+    margin-top: 15px;
+}
+
+.text3{
+    font-family: "Montserrat", sans-serif; 
+    width: 260px; 
+    margin-top: 15px;
+}
+
+.father2{
+    margin-top: 10px;
+}
+.text4{
+    font-size: x-large;
+    font-family: "Fraunces", serif;
+    font-weight: bolder;
+    color: #3c8067;
+}
+.text44{
+    text-decoration: line-through;
+    font-size: large;
+    font-family: "Montserrat", sans-serif; 
+    margin-left: 20px;
+}
+
+button{
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 15px;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #3c8067;
+    cursor: pointer;
+}
+.icon1{
+    width: 30px;
+    height: 17px;
+    fill: white;
+}
+button:hover{
+    background-color: #0c3123;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* تنسيق الجزئ النهائي الخاص بصفحة */
+
+.text5{
+    text-align: center;
+    font-family: "Montserrat", sans-serif; 
+    font-size: 11px;
+    margin-top: 60px;
+}
+.text5 a{
+    color: blue;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+                                                               /* Responsive */
+
+@media (max-width:700px) {
+    
+    body{
+        background-color: #f2ebe3;
+    }
+    
+    /* ----------------------------------------------------------------------------------------- */
+    
+    /* تنسيق الحاوية الاساسية وتنسيق البيانات الداخلية */
+    
+    .container{
+        display: block;
+        width: 500px;
+        height: 700px;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px 0px gray;
+    }
+    
+    .photo1{
+        width: 500px;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .part2{
+        width: 500px;
+        height: 400px;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #ffff;
+    }
+    
+    .father{
+        margin-left: 30px;
+        padding-top: 10px;
+        margin-top: -4px;
+    }
+    
+    .text1{
+        font-family: "Montserrat", sans-serif;
+        margin-top: 25px;
+    }
+    
+    .text2{
+        font-family: "Fraunces", serif;
+        color: #333;
+        width: 400px;
+        font-size: 43px;
+        margin-top: 15px;
+    }
+    
+    .text3{
+        font-family: "Montserrat", sans-serif; 
+        width: 260px; 
+        margin-top: 15px;
+    }
+    
+    .father2{
+        margin-top: 10px;
+    }
+    .text4{
+        font-size: x-large;
+        font-family: "Fraunces", serif;
+        font-weight: bolder;
+        color: #3c8067;
+    }
+    .text44{
+        text-decoration: line-through;
+        font-size: large;
+        font-family: "Montserrat", sans-serif; 
+        margin-left: 20px;
+    }
+    
+    button{
+        text-align: center;
+        font-family: "Montserrat", sans-serif; 
+        font-weight: bolder;
+        font-size: large;
+        margin-top: 15px;
+        color: white;
+        padding: 15px 50px;
+        border: none;
+        border-radius: 5px;
+        background-color:  #3c8067;
+        cursor: pointer;
+    }
+    .icon1{
+        width: 30px;
+        height: 17px;
+        fill: white;
+    }
+    button:hover{
+        background-color: #0c3123;
+    }
+    
+    /* ----------------------------------------------------------------------------------------- */
+    
+    /* تنسيق الجزئ النهائي الخاص بصفحة */
+    
+    .foot{
+        width: 100%;
+        height: 30px;
+        background-color: white;
+        margin-top: -160px;
+        z-index: 100;
+    }
+
+    .text5{
+        text-align: center;
+        font-family: "Montserrat", sans-serif; 
+        font-size: 11px;
+        padding: 8px;
+        z-index: 99;
+    }
+    .text5 a{
+        color: blue;
+    }
+    
+}                                                               
+
+  /*------------------------------------------------------------------------------------------------*/
+
+  @media (max-width:400px) {
+    
+    body{
+        background-color: #f2ebe3;
+    }
+    
+    /* ----------------------------------------------------------------------------------------- */
+    
+    /* تنسيق الحاوية الاساسية وتنسيق البيانات الداخلية */
+    
+    .container{
+        display: block;
+        width: 300px;
+        height: 700px;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px 0px gray;
+    }
+    
+    .photo1{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .part2{
+        width: 300px;
+        height: 400px;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #ffff;
+    }
+    
+    .father{
+        margin-left: 30px;
+        padding-top: 5px;
+        margin-top: -4px;
+    }
+    
+    .text1{
+        font-family: "Montserrat", sans-serif;
+        margin-top: 25px;
+    }
+    
+    .text2{
+        font-family: "Fraunces", serif;
+        color: #333;
+        width: 220px;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    
+    .text3{
+        font-family: "Montserrat", sans-serif; 
+        width: 260px; 
+        margin-top: 15px;
+    }
+    
+    .father2{
+        margin-top: 10px;
+    }
+    .text4{
+        font-size: x-large;
+        font-family: "Fraunces", serif;
+        font-weight: bolder;
+        color: #3c8067;
+    }
+    .text44{
+        text-decoration: line-through;
+        font-size: large;
+        font-family: "Montserrat", sans-serif; 
+        margin-left: 20px;
+    }
+    
+    button{
+        text-align: center;
+        font-family: "Montserrat", sans-serif; 
+        font-weight: bolder;
+        font-size: large;
+        margin-top: 20px;
+        color: white;
+        padding: 15px 50px;
+        border: none;
+        border-radius: 5px;
+        background-color:  #3c8067;
+        cursor: pointer;
+    }
+    .icon1{
+        width: 30px;
+        height: 17px;
+        fill: white;
+    }
+    button:hover{
+        background-color: #0c3123;
+    }
+    
+    /* ----------------------------------------------------------------------------------------- */
+    
+    /* تنسيق الجزئ النهائي الخاص بصفحة */
+    
+    .foot{
+        width: 100%;
+        height: 30px;
+        background-color: white;
+        margin-top: -160px;
+    }
+
+    .text5{
+        font-family: "Montserrat", sans-serif; 
+        font-size: 10px;
+        padding: 8px;
+        text-align: left;
+    }
+    .text5 a{
+        color: blue;
+    }
+    
+}                                                               
